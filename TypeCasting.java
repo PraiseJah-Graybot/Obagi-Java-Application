@@ -7,8 +7,13 @@ public class TypeCasting{
 		//Narrowing Type Casting ASCII Code ? = 63
 		char alpha = '?';
 		
-		int asciiCode = (char)alpha;
+		int asciiCode = (int)alpha;
 		System.out.printf("The ASCII code for ? is %d%n",asciiCode);
+		
+		double height = 5.8;
+		
+		int myHeight = (int) height;
+		System.out.printf("My Faculty's height is %d",myHeight);
 	}
 }
       
