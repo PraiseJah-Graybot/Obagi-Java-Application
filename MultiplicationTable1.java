@@ -4,16 +4,15 @@ public class MultiplicationTable1
 {
 	public static void main(String[] args)
 	{
-		Scanner scanner = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Enter a number: ");
 		
 		int num = input.nextInt();
 		
-		for (int i = 1; i >= 12; i++)
+		for (int i = 1; i <= 12; i++)
 		{
-			System.out.println(number + " x " + i + " = " + (number * i));
+			System.out.println(num + " x " + i + " = " + num * i);
 		}
-		scanner.close();
 	}	
 }
